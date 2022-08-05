@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mouse Memoirs', 'Noto Sans TC' ,sans-serif;
+}
+
+body {
+  background: #81a0ff7b;
+  margin-inline: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 140, 255);
+  &:hover {
+    color: rgb(184, 119, 0);
+  }
+}
+
+div.nav-container{
+  background: #1c43bba8;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  h1 {
+    color:white;
+    letter-spacing:0.25rem;
+  }
+}
+
+@import './_header.scss';
+@import './_body.scss';
+@import './_pages.scss';
+
+@media screen and (max-width: 414px) {
+    body {
+      margin-inline:0;
+    }
+}

@@ -1,0 +1,30 @@
+div.page-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 2.5rem;
+    color: rgb(0, 140, 255)
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: rgb(61, 145, 165);
+    line-height: 2rem;
+  }
+
+  div.background {
+    clip-path: circle(49.8% at 50% 100%);
+    width: 900px;
+    height: 900px;
+    align-self: center;
+    background: #81a0ff7b;
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+  }
+
+}

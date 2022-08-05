@@ -1,0 +1,22 @@
+div.body-container {
+  background: rgba(255, 255, 255, 0.508);
+  padding: 30px;
+  border-radius: 20px;
+  h1.title {
+    color:rgb(0, 136, 255);
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    margin: 0 0 2rem 0;
+    font-size: 1.2rem;
+    text-indent: 1em;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+}
